@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimun-scale=1">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa&family=PT+Mono&display=swap" rel="stylesheet">
   <link href="dist/css/style.css" rel="stylesheet">
 
   <title>Le Scone - Restaurante</title>
@@ -11,6 +14,108 @@
 
 </head>
 <body>
-  
+
+  <main class="container intro">
+    <div class="grid-5">
+      <img class="logo" src="img/lescone.png" alt="Le Scone">
+      <div class="intro-info">
+        <p>De Seg. à Sab.<span class="aberto"></span><br>
+          07h00 às 18h00</p>
+        <p>Av. Sapé, 300 - Manaíra<br>
+        João Pessoa - PB</p>
+      </div>
+      <p class="intro-tel">(83) 99988-0011</p>
+    </div>
+
+    <div class="grid-7">
+      <img src="img/foto.png" alt="Ambiente da Le Scone">
+    </div>
+
+  </main>
+
+  <section class="container menu">
+
+    <h1 class="grid-4 titulo">Menu</h1>
+
+    <div class="grid-7 offset-1">
+      <div class="menu-item">
+        <img src="img/prato-1.png" alt="Prato 1">
+
+        <h2>Entradas</h2>
+
+        <ul>
+          <li><span>R$ 2,50</span>Ovos Mexidos</li>
+          <li><span>R$ 3,50</span>Scones de Frutas</li>
+          <li><span>R$ 5,00</span>Pastel de Queijo</li>
+          <li><span>R$ 6,50</span>Presunto Cozido</li>
+          <li><span>R$ 5,50</span>Coxinha de Frango</li>
+        </ul>
+      </div>
+
+      <div class="menu-item">
+        <img src="img/prato-2.png" alt="Prato 2">
+
+        <h2>Pratos Principais</h2>
+
+        <ul>
+          <li><span>R$ 15,00</span>Penne com Queijo</li>
+          <li><span>R$ 23,00</span>Feijoada</li>
+          <li><span>R$ 35,90</span>Costela ao Molho</li>
+          <li><span>R$ 16,50</span>Medalhão de Frango</li>
+          <li><span>R$ 27,00</span>Fava</li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="container contato">
+    
+    <h1 class="grid-4 titulo">Contato</h1>
+
+    <div class="grid-7 offset-1">
+
+      <form action="">
+        <label for="">Nome</label>
+        <input type="text">
+
+        <div class="row">
+          <div class="grid-7">
+            <label for="">E-mail</label>
+            <input type="text">
+          </div>
+          <div class="grid-5">
+            <label for="">Telefone</label>
+            <input type="text">
+          </div>
+        </div>
+
+        <label for="">Mensagem</label>
+        <textarea name="" id=""></textarea>
+
+        <input class="button" type="button" value="enviar">
+      </form>
+
+      <div class="contato-info">
+        <p>contato@lescone.com ////</p>
+        <p>+55 83 99988-0011 ////</p>
+      </div>
+
+      <a href="#" class="contato-mapa">
+        <img src="img/mapjp.jpg" alt="Como chegar na Le Scone">
+      </a>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>Le Scone © 2021 - 2026. Alguns direitos reservados</p>
+      <a href="#" target="_blank">
+        <img src="img/lescone-icone.png" alt="Le Scone Logo">
+      </a>
+    </div>
+  </footer>
+
 </body>
 </html>
