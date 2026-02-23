@@ -2,15 +2,15 @@
 $bege-claro: #edece4;
 $bege-medio: #cbc6b9;
 $bege-escuro: #988c77;
-$cinza: #edece4;
+$cinza: #242426;
 $verde: #1AB912;
 
 // FONTES
-$serifont: 'Aref Ruqaa', serif;
 $monofont: 'PT Mono', monospace;
+$serifont: 'Aref Ruqaa', serif;
 
 @function em($pixel, $context: 16) {
-  @return $pixel / $context + 'em';
+  @return $pixel / $context + em;
 }
 
 @mixin tipo-1($size) {

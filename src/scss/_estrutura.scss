@@ -1,0 +1,40 @@
+@use 'variaveis' as v;
+@use 'grid' as *;
+
+body {
+  background: v.$bege-claro;
+  border: 10px solid v.$bege-medio;
+  color: v.$cinza;
+  @include d(s) {
+    border: none;
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.titulo {
+  @include v.tipo-1(18);
+  text-transform: uppercase;
+  @include d(s) {
+    margin-bottom: 40px;
+  }
+  &::after {
+    content: '';
+    display: block;
+    width: 75%;
+    float: right;
+    height: 2px;
+    background: v.$cinza;
+    margin-top: 14px;
+    @include d(m) {
+      width: 60%;
+    }
+  }
+}
+
+p {
+  @include v.tipo-1(18);
+}

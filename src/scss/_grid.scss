@@ -33,7 +33,7 @@ $s-device: 480px;
   $result: calc(#{$width} - #{$gutter});
 
   @if $offset == offset {
-    $gutter: $gutter / 2;
+    $gutter: calc($gutter / 2);
     $result: calc(#{$width} - #{$gutter});
   }
   @return $result;
