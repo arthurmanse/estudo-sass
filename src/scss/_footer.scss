@@ -1,0 +1,21 @@
+@use 'grid' as *;
+@use 'variaveis' as v;
+
+footer {
+  padding: 20px 0;
+  background: v.$cinza;
+  @include v.box-shadow(0 0 0 10px v.$cinza);
+  p {
+    color: v.$bege-claro;
+    @include d(s) {
+      text-align: center;
+    }
+  }
+  a img {
+    float: right;
+    @include d(s) {
+      float: none;
+      margin: 20px auto;
+    }
+  }
+}
